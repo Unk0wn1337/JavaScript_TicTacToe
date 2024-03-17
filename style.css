@@ -1,0 +1,20 @@
+body {
+    box-sizing: border-box;
+}
+
+
+
+#jatekTer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 2px black;
+}
+.kocka {
+    border: solid 2px black;
+    text-align: center;
+    
+}
+.nemLathato {
+    visibility: hidden;
+}
+
