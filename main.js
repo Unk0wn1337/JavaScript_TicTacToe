@@ -2,8 +2,6 @@ import { KOCKAK } from "./adatok.js";
 function main(){
     terKialakitas();
     jatekosNevek();
-    kattintas();
-    ellenorzes();
 }
 
 function terKialakitas(){
@@ -11,6 +9,7 @@ function terKialakitas(){
     for (let index = 0; index < KOCKAK.length; index++) {
         TER.innerHTML += `<div class="kocka"><p class="nemLathato">p</p></div>`;
     }
+    kattintas();
 
 }
  
@@ -34,6 +33,7 @@ function kattintas(){
                 KOCKAK[index] = "X";
                 console.log(KOCKAK);
             }
+            ellenorzes();
         });
     }
 }
